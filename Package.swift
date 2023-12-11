@@ -20,6 +20,7 @@ let package = Package(
     platforms: [
         .iOS(.v12),
         .watchOS(.v5),
+        .macOS(.v10_10),
     ],
     products: [
         .library(name: "Logging", targets: ["Logging"]),
